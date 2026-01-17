@@ -1,0 +1,38 @@
+[
+  {
+    "country": "Australia",
+    "countryCode": "AU",
+    "states": [
+      { "name": "New South Wales", "stateCode": "NSW" },
+      { "name": "Victoria", "stateCode": "VIC" },
+      { "name": "Queensland", "stateCode": "QLD" },
+      { "name": "Western Australia", "stateCode": "WA" },
+      { "name": "South Australia", "stateCode": "SA" },
+      { "name": "Tasmania", "stateCode": "TAS" },
+      { "name": "Northern Territory", "stateCode": "NT" },
+      { "name": "Australian Capital Territory", "stateCode": "ACT" }
+    ]
+  },
+  {
+    "country": "United States",
+    "countryCode": "US",
+    "states": [
+      { "name": "California", "stateCode": "CA" },
+      { "name": "Texas", "stateCode": "TX" },
+      { "name": "Florida", "stateCode": "FL" },
+      { "name": "New York", "stateCode": "NY" },
+      { "name": "Illinois", "stateCode": "IL" }
+    ]
+  },
+  {
+    "country": "Canada",
+    "countryCode": "CA",
+    "states": [
+      { "name": "Ontario", "stateCode": "ON" },
+      { "name": "Quebec", "stateCode": "QC" },
+      { "name": "British Columbia", "stateCode": "BC" },
+      { "name": "Alberta", "stateCode": "AB" },
+      { "name": "Manitoba", "stateCode": "MB" }
+    ]
+  }
+]

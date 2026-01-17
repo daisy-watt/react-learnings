@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 40%;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+}
+
+.errors_text {
+    color: red !important;
+    font-size: small;
+}
