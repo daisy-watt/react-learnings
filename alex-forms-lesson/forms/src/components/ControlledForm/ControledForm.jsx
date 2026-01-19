@@ -1,4 +1,4 @@
-import { useState } from 'react'; 
+import { useEffect, useState, useRef } from 'react'; 
 import classes from './ControlledForm.module.scss';
 import { validateForm } from './Validator';
 import countryData from '../../data/country-data.json';
@@ -14,6 +14,13 @@ export default function ControlledForm({formSubmit}) {
     };
     const [formValues, setFormValues] = useState(defaultValues);
     const [registerAttempt, setRegisterAttempt] = useState(false);
+    const renderCountRef = useRef(0);
+
+    useEffect(() => {
+        renderCountRef.current++;
+        console.log(renderCountRef.current);
+    });
+
     const { isValid, errors } = validateForm(formValues);
     const stateData = 
         countryData.find(country => country.countryCode === formValues.countryCode
